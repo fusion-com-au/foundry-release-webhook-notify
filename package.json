@@ -29,9 +29,8 @@
     "foundry-release-git": "^2.0.1",
     "foundry-release-npm": "^2.0.1",
     "foundry-release-require-branch": "^0.0.2",
-    "foundry-release-slack-notify": "^0.0.1",
-    "foundry-release-git-semver-branches": "^2.0.0",
     "foundry-release-slack-notify": "0.0.1",
+    "foundry-release-git-semver-branches": "^2.0.0",
     "conventional-changelog-cli": "^1.1.1",
     "conventional-changelog-eslint": "^0.1.0"
   },
@@ -55,7 +54,7 @@
         "options": {
           "channel": "#frontend",
           "webhook": "https://hooks.slack.com/services/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",
-          "text": "<!here> {{npm.package.name}}@{{npm.package.version}} published on <a href='https://www.npmjs.com/package/{{npm.package.name}}'>npmjs</a>."
+          "text": "<!here> {{npm.package.name}}@{{npm.package.version}} published on <https://www.npmjs.com/package/{{npm.package.name}}|npmjs>."
         }
       }
     ]
