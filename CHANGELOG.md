@@ -1,3 +1,9 @@
+<a name="0.0.3"></a>
+## [0.0.3](https://github.com/fusion-com-au/foundry-release-webhook-notify/compare/0.0.2...0.0.3) (2016-09-27)
+
+
+
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/fusion-com-au/foundry-release-webhook-notify/compare/933fae4c5fa72573f6e06efa00cc4d1681ff8899...0.0.2) (2016-09-27)
 

@@ -1,6 +1,6 @@
 {
   "name": "foundry-release-webhook-notify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Post to a webhook endpoint on publish.",
   "main": "lib/foundry-release-webhook-notify",
   "scripts": {
