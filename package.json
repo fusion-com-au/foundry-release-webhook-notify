@@ -1,6 +1,6 @@
 {
   "name": "foundry-release-webhook-notify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Post to a webhook endpoint on publish.",
   "main": "lib/foundry-release-webhook-notify",
   "scripts": {
@@ -52,6 +52,7 @@
         "updateFiles": "npm run changelog"
       },
       "foundry-release-git-semver-branches",
+      "foundry-release-git",
       "foundry-release-npm",
       {
         "type": "releaseCommand",
