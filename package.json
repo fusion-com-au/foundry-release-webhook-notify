@@ -50,6 +50,7 @@
       "foundry-release-git-semver-branch",
       "foundry-release-npm",
       {
+        "type": "releaseCommand",
         "command": "foundry-release-slack-notify",
         "options": {
           "channel": "#frontend",
