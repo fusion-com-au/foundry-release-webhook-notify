@@ -6,7 +6,11 @@
   "scripts": {
     "release": "foundry release",
     "release-resume": "foundry resume",
+<<<<<<< HEAD
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0"
+=======
+    "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
+>>>>>>> 2eb3a1ffbc7756609105270347f8e51a28acec5f
   },
   "keywords": [
     "foundry",
