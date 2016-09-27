@@ -47,7 +47,7 @@
           "branchName": "master"
         }
       },
-      "foundry-release-git-semver-branch",
+      "foundry-release-git-semver-branches",
       "foundry-release-npm",
       {
         "type": "releaseCommand",
