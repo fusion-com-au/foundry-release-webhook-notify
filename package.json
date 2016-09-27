@@ -5,7 +5,8 @@
   "main": "lib/foundry-release-webhook-notify",
   "scripts": {
     "release": "foundry release",
-    "release-resume": "foundry resume"
+    "release-resume": "foundry resume",
+    "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
     "foundry",
@@ -45,6 +46,10 @@
         "options": {
           "branchName": "master"
         }
+      },
+      {
+        "type": "customCommand",
+        "updateFiles": "npm run changelog"
       },
       "foundry-release-git-semver-branches",
       "foundry-release-npm",
